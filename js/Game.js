@@ -312,12 +312,8 @@ class Game {
   }
 // Add A1  ==== AQUI
   handleFuel(index) {
-
-    cars[index - 1].overlap(fuels, function(collector, collected) {
-      player.fuel = 185;
-   
-      collected.remove();
-    });
+    
+    // complete a função
 
     // reduzindo o combustível do carro
     if (player.fuel > 0 && this.playerMoving) {
